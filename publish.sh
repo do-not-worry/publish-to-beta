@@ -24,6 +24,8 @@ tag="M"`date +"%Y%m%d%H%M%S"`
 git tag ${tag}
 git push origin ${tag}
 
+cd publish-to-beta
+
 
 
 #######################################准备构建beta环境
